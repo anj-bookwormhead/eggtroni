@@ -478,5 +478,65 @@ button.brand-btn {
 }
 
 footer {
-  background-color: ;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #087992;
+
+  .group-item {
+    margin-top: 5%;
+    // margin-bottom: 5%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    .item {
+      //margin-top: 15%;
+      display: flex;
+      flex-direction: column;
+      margin-right: 6em;
+
+      ul li {
+        list-style-type: none;
+        margin-bottom: 0.8em;
+      }
+
+      a {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 300;
+        text-decoration: none;
+      }
+    }
+
+    .social-icon {
+      //margin-top: 15%;
+      margin-bottom: 20%;
+      ul li {
+        display: inline;
+        list-style-type: none;
+        margin-right: 1em;
+      }
+
+      a {
+        color: #fff;
+        font-size: 40px;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.end-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color: #131216;
+
+  p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+  }
 }
