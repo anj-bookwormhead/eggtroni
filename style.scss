@@ -456,6 +456,47 @@ button.brand-btn {
   }
 }
 
+.life-section {
+  h2 {
+    color: #666666;
+  }
+
+  .responsive {
+    margin-top: 3em;
+
+    .courosel-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      outline: none;
+      text-align: center;
+      margin: 1em 3em;
+
+      h3 {
+        font-size: 30px;
+        color: #303030;
+        width: 180px;
+        line-height: 1em;
+        margin-bottom: 3em;
+      }
+
+      p {
+        font-size: 15px;
+        color: #303030;
+      }
+    }
+  }
+}
+
+ul.slick-dots {
+  margin-top: 3em;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #131216 !important;
+}
+
 /*footer cta*/
 .content-wrapper {
   max-width: 400px;
@@ -489,11 +530,13 @@ footer {
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    flex-wrap: wrap;
 
     .item {
       //margin-top: 15%;
       display: flex;
       flex-direction: column;
+
       margin-right: 6em;
 
       ul li {
