@@ -479,7 +479,8 @@ button.brand-btn {
 }
 
 .life-section .responsive {
-  margin-top: 3em;
+  margin-top: 5em;
+  margin-bottom: 5em;
 }
 
 .life-section .responsive .courosel-item {
@@ -498,7 +499,7 @@ button.brand-btn {
           justify-content: flex-start;
   outline: none;
   text-align: center;
-  margin: 1em 3em;
+  margin: 6em 3em;
 }
 
 .life-section .responsive .courosel-item h3 {
