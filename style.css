@@ -479,7 +479,6 @@ button.brand-btn {
 }
 
 .life-section .responsive {
-  margin-top: 5em;
   margin-bottom: 5em;
 }
 
@@ -500,11 +499,12 @@ button.brand-btn {
   outline: none;
   text-align: center;
   margin: 6em 3em;
-  height: 250px;
+  padding-top: 5em;
+  height: auto;
 }
 
 .life-section .responsive .courosel-item .item-title {
-  margin-bottom: 3em;
+  margin-bottom: 8em;
 }
 
 .life-section .responsive .courosel-item .item-title h3 {
@@ -526,6 +526,13 @@ ul.slick-dots {
 .slick-prev:before,
 .slick-next:before {
   color: #131216 !important;
+}
+
+.slick-current {
+  background: url("https://storage.googleapis.com/happie-public.pagebuilder.me/ceae01055644ba5142369288cd7f65d2.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 180px;
 }
 
 /*footer cta*/

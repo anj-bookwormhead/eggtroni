@@ -462,7 +462,7 @@ button.brand-btn {
   }
 
   .responsive {
-    margin-top: 5em;
+    // margin-top: 1em;
     margin-bottom: 5em;
 
     .courosel-item {
@@ -473,10 +473,11 @@ button.brand-btn {
       outline: none;
       text-align: center;
       margin: 6em 3em;
-      height: 250px;
+      padding-top: 5em;
+      height: auto;
 
       .item-title {
-        margin-bottom: 3em;
+        margin-bottom: 8em;
 
         h3 {
           font-size: 30px;
@@ -502,6 +503,13 @@ ul.slick-dots {
 .slick-prev:before,
 .slick-next:before {
   color: #131216 !important;
+}
+
+.slick-current {
+  background: url("https://storage.googleapis.com/happie-public.pagebuilder.me/ceae01055644ba5142369288cd7f65d2.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 180px;
 }
 
 /*footer cta*/
