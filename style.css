@@ -494,23 +494,27 @@ button.brand-btn {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   outline: none;
   text-align: center;
   margin: 6em 3em;
+  height: 250px;
 }
 
-.life-section .responsive .courosel-item h3 {
+.life-section .responsive .courosel-item .item-title {
+  margin-bottom: 3em;
+}
+
+.life-section .responsive .courosel-item .item-title h3 {
   font-size: 30px;
   color: #303030;
   width: 180px;
   line-height: 1em;
-  margin-bottom: 3em;
 }
 
-.life-section .responsive .courosel-item p {
+.life-section .responsive .courosel-item .item-desc p {
   font-size: 15px;
   color: #303030;
 }
